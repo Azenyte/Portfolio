@@ -5,18 +5,20 @@ head {
 
 div.profile {
     position: absolute;
+    float: left;
 }
 
 
-div.nav {
+div.info {
     border-radius: 25px 25px 25px 25px;
-    height: 950px;
-    width: 500px;
+    height: 1000px;
+    width: 400px;
     float: left;
-    background-color: grey; 
-    opacity: 40%;
+    background-color: black; 
+    opacity: 20%;
     z-index: 2;
     position: absolute;
+    margin-left: 2%;
     top: 0;
     left: 0;
 }
@@ -24,13 +26,14 @@ div.nav {
 
 .img-circle {
     position: relative;
-    display: inline;
-    position: relative;
+    background-position: center;
     border-radius: 50%;
-    float: left;
+    margin-top: 15%;
+    margin-left: 15%;
     width: 300px;
     height: 300px;
     z-index: 5;
+    border: 5px solid ghostwhite;
     
 }
 
@@ -39,6 +42,18 @@ div.nav {
 
 
 body {
-  position: static;
-  background-image: url("https://i.imgur.com/TH44X3i.png");
+  background-image: url("https://i.imgur.com/06qZ5t0.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: black;
+}
+
+div.Navbar {
+    border-radius: 25px 25px 25px 25px;
+    background-position: center;
+    height: 100px;
+    width: 1475px;
+    float: right;
+    opacity: 30%;
+    background-color: black;
 }
