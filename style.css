@@ -37,10 +37,6 @@ div.info {
     
 }
 
-
-
-
-
 body {
   background-image: url("https://i.imgur.com/06qZ5t0.jpg");
   background-repeat: no-repeat;
@@ -49,11 +45,59 @@ body {
 }
 
 div.Navbar {
+    position: relative;
     border-radius: 25px 25px 25px 25px;
     background-position: center;
     height: 100px;
-    width: 1475px;
+    width: 1425px;
     float: right;
     opacity: 30%;
+    margin-right: 2%;
     background-color: black;
 }
+
+div.buttons {
+    position: relative;
+    text-align: left;
+    font: 500;  
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    display: inline;
+}
+#logo1 {
+    position: relative;
+    background-image: url(Pictures/GitHub-Logos/GitHub_Logo_White.png);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    background-size: 60%;
+    height: 100px;
+    width: 300px; 
+    z-index: 8;
+}
+.Cont {
+    border-radius: 25px 25px 25px 25px;
+    background-position: center;
+    height: 1200px;
+    width: 600px;
+    background-color: black;
+    opacity: 30%;
+    margin-left: 50%;
+    z-index: -5;
+}
+.Files {
+    position: relative;
+    color: whitesmoke;
+    padding-top: 10%;
+    margin-left: 25%;
+    font-size: 90px;
+    text-align: top;
+    font-family: sans-serif;    
+}
+
+
+
+
