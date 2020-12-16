@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 head {
     height: 300px;
     width: 500px;
@@ -25,7 +28,7 @@ div.info {
 
 
 .img-circle {
-    position: relative;
+    position: relative; 
     background-position: center;
     border-radius: 50%;
     margin-top: 15%;
@@ -58,7 +61,6 @@ div.Navbar {
 
 div.buttons {
     position: relative;
-    text-align: left;
     font: 500;  
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -72,31 +74,40 @@ li {
     background-image: url(Pictures/GitHub-Logos/GitHub_Logo_White.png);
     background-repeat: no-repeat;
     display: block;
-    float: left;
+    float: top;
     background-size: 60%;
     height: 100px;
     width: 300px; 
     z-index: 8;
 }
 .Cont {
+    position: relative;
     border-radius: 25px 25px 25px 25px;
-    background-position: center;
-    height: 1200px;
-    width: 600px;
+    float: right;
+    height: 800px;
+    width: 1424px;
     background-color: black;
-    opacity: 30%;
+    opacity: 100%;
     margin-left: 50%;
     z-index: -5;
 }
 .Files {
     position: relative;
+    text-align: center;
     color: whitesmoke;
     padding-top: 10%;
     margin-left: 25%;
     font-size: 90px;
-    text-align: top;
-    font-family: sans-serif;    
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 0 0 20px #ff005b;
 }
+
+.Proj {
+    margin-bottom: 20%;
+}
+
+
+
 
 
 
